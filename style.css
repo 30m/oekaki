@@ -1,0 +1,88 @@
+#cvs {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+#canvas_pen {
+  position: absolute;
+  border: solid 1px rgba(0, 0, 0, 0.5);
+}
+#canvas_photo {
+  position: absolute;
+  border: solid 1px rgba(0, 0, 0, 0.3);
+}
+#canvas_bg {
+  position: absolute;
+  border: solid 1px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+#canvas_save {
+  position: absolute;
+  border: solid 1px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+#tools {
+  top: 650px;
+  left: 10px;
+
+  position: relative;
+}
+
+.js-modal-open {
+  text-decoration: none;
+  color: white;
+}
+
+.js-modal-close,
+#save {
+  text-decoration: none;
+  color: white;
+}
+
+.js-modal-open:link,
+.js-modal-open:visited,
+.js-modal-open:hover,
+.js-modal-open:active,
+#save:link,
+#save:visited,
+#save:hover,
+#save:active {
+  text-decoration: none;
+  color: white;
+}
+
+.modal {
+  display: none;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+.modal__bg {
+  background: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}
+.modal__content {
+  background: #fff;
+  left: 50%;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+}
+
+#colorPicker {
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+}
+#thickness {
+  margin-top: 2px;
+  margin-left: 5px;
+  width: 50%;
+}
